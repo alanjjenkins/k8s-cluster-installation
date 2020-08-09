@@ -40,3 +40,7 @@ argo
 
 # IDE
 .idea/
+
+# Arch Image files
+arch/arch-aarch64.tar.gz
+arch/arch-aarch64-image.img
