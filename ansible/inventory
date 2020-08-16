@@ -1,7 +1,7 @@
 [masters]
-k8s-master-01 hostname=k8s-master-01 ansible_host=192.168.1.121 ansible_user=pi
-k8s-master-02 hostname=k8s-master-02 ansible_host=192.168.1.122 ansible_user=pi
-k8s-master-03 hostname=k8s-master-03 ansible_host=192.168.1.123 ansible_user=pi
+hc2-0 hostname=hc2-0 ansible_host=192.168.86.70 ansible_user=alan
+hc2-1 hostname=hc2-1 ansible_host=192.168.86.71 ansible_user=alan
+hc2-2 hostname=hc2-2 ansible_host=192.168.86.72 ansible_user=alan
 
 [workers]
-k8s-worker-01 hostname=k8s-worker-01 ansible_host=192.168.1.131 ansible_user=pi
+#k8s-worker-01 hostname=k8s-worker-01 ansible_host=192.168.1.131 ansible_user=pi
